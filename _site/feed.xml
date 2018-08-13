@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-08-13T01:52:35-06:00</updated><id>http://localhost:4000/</id><title type="html">Jake Not Jacob</title><subtitle>Things and stuff I think about.</subtitle><entry><title type="html">Hello, Monday</title><link href="http://localhost:4000/learn/daily/2018/08/13/hello-monday.html" rel="alternate" type="text/html" title="Hello, Monday" /><published>2018-08-13T00:00:00-06:00</published><updated>2018-08-13T00:00:00-06:00</updated><id>http://localhost:4000/learn/daily/2018/08/13/hello-monday</id><content type="html" xml:base="http://localhost:4000/learn/daily/2018/08/13/hello-monday.html">&lt;h1 id=&quot;hello-world&quot;&gt;Hello, world!&lt;/h1&gt;
+
+&lt;p&gt;I’ve been thinking about having a place to document my learnins instead of my notebooks and transient servers, and have tried to do it a few times but never really stuck with it… hopefully using Github Pages I’ll make this routine to track progress of my projects, or at least use it as a pseudo wiki of sorts.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;Minor note before we get started: this ‘blog’ is run on the static HTML generator &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll&lt;/a&gt; written in Ruby.&lt;/p&gt;
+
+&lt;p&gt;I learned a little neat thing about Jekyll in testing: tried to setup a ‘test post’ with a file of the format (YYYY-MM-DD-name-of-post.markdown) used inside of the _posts directory, it refused to be published until it was day of (local machine time)… kinda neat, makes it possible to write articles ahead of time and keep them from showing up until the day hits.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;It looks like there’s a guard in place to &lt;a href=&quot;https://github.com/jekyll/jekyll/blob/035ea729ff5668dfc96e7f56a86d214e5a633291/lib/jekyll/readers/post_reader.rb#L41&quot;&gt;filter these ‘publishable’ posts&lt;/a&gt;… but why it didn’t throw some notice in the log like it should is odd…
+    &lt;ul&gt;
+      &lt;li&gt;Maybe a discrepancy between time on my local machine and the hosting server at github? Or I’m missing something obvious at first glance?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Little things like the above are what I hope to tack in here.&lt;/p&gt;
+
+&lt;p&gt;We’ll see how it goes.&lt;/p&gt;</content><author><name></name></author><summary type="html">Hello, world!</summary></entry></feed>
