@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Where is your towel?"
-date:   2018-08-13 00:00:00 -0600
+date:   2018-08-15 00:00:00 -0600
 categories: learn daily thoughts
 ---
 
